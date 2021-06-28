@@ -1,0 +1,6 @@
+framework module Pods_digitalstore {
+  umbrella header "Pods-digitalstore-umbrella.h"
+
+  export *
+  module * { export * }
+}

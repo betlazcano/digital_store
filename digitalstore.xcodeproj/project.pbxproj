@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		385BD24A26585AB000CEA4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385BD24826585AB000CEA4EA /* LaunchScreen.storyboard */; };
 		385BD253265866F800CEA4EA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385BD252265866F800CEA4EA /* Poppins-Regular.ttf */; };
 		385BD2562658670900CEA4EA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385BD2552658670900CEA4EA /* Poppins-Bold.ttf */; };
+		38CFF0932687EDC200CDE067 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */; };
+		5051A6C474658C0FC5C10089 /* Pods_digitalstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501CA0485C84172D7BBF6446 /* Pods_digitalstore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		385BD24B26585AB000CEA4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		385BD252265866F800CEA4EA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "fonts/Poppins/Poppins-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		385BD2552658670900CEA4EA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "fonts/Poppins/Poppins-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4635733995B3D5220232A26F /* Pods-digitalstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalstore.release.xcconfig"; path = "Target Support Files/Pods-digitalstore/Pods-digitalstore.release.xcconfig"; sourceTree = "<group>"; };
+		501CA0485C84172D7BBF6446 /* Pods_digitalstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digitalstore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BB56BC0063C1676F3A5ED6 /* Pods-digitalstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalstore.debug.xcconfig"; path = "Target Support Files/Pods-digitalstore/Pods-digitalstore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5051A6C474658C0FC5C10089 /* Pods_digitalstore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +59,8 @@
 			children = (
 				385BD23C26585AAD00CEA4EA /* digitalstore */,
 				385BD23B26585AAD00CEA4EA /* Products */,
+				BEC80C558398F38D3D304753 /* Pods */,
+				6D30786CDD511D3F435ED5AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +87,26 @@
 				385BD24B26585AB000CEA4EA /* Info.plist */,
 				385BD2552658670900CEA4EA /* Poppins-Bold.ttf */,
 				385BD252265866F800CEA4EA /* Poppins-Regular.ttf */,
+				38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */,
 			);
 			path = digitalstore;
+			sourceTree = "<group>";
+		};
+		6D30786CDD511D3F435ED5AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				501CA0485C84172D7BBF6446 /* Pods_digitalstore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC80C558398F38D3D304753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88BB56BC0063C1676F3A5ED6 /* Pods-digitalstore.debug.xcconfig */,
+				4635733995B3D5220232A26F /* Pods-digitalstore.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385BD24E26585AB000CEA4EA /* Build configuration list for PBXNativeTarget "digitalstore" */;
 			buildPhases = (
+				57E32596C58C069C68E980D7 /* [CP] Check Pods Manifest.lock */,
 				385BD23626585AAD00CEA4EA /* Sources */,
 				385BD23726585AAD00CEA4EA /* Frameworks */,
 				385BD23826585AAD00CEA4EA /* Resources */,
+				CFD6C3CB00D886F1CCA03DB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,10 +173,53 @@
 				385BD2562658670900CEA4EA /* Poppins-Bold.ttf in Resources */,
 				385BD24526585AAD00CEA4EA /* Main.storyboard in Resources */,
 				385BD253265866F800CEA4EA /* Poppins-Regular.ttf in Resources */,
+				38CFF0932687EDC200CDE067 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57E32596C58C069C68E980D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-digitalstore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD6C3CB00D886F1CCA03DB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digitalstore/Pods-digitalstore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digitalstore/Pods-digitalstore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-digitalstore/Pods-digitalstore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		385BD23626585AAD00CEA4EA /* Sources */ = {
@@ -303,6 +375,7 @@
 		};
 		385BD24F26585AB000CEA4EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BB56BC0063C1676F3A5ED6 /* Pods-digitalstore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +394,7 @@
 		};
 		385BD25026585AB000CEA4EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4635733995B3D5220232A26F /* Pods-digitalstore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
