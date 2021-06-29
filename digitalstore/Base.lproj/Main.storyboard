@@ -32,7 +32,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digital Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOh-oP-WWK">
-                                <rect key="frame" x="114" y="74" width="186" height="48"/>
+                                <rect key="frame" x="100" y="74" width="214" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="mE3-rb-VH7"/>
                                 </constraints>
@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHI-WU-yYs">
-                                <rect key="frame" x="81.5" y="462" width="251" height="41"/>
+                                <rect key="frame" x="81.5" y="467" width="251" height="41"/>
                                 <string key="text">La forma más rápida y segura
 de comprar y vender por internet</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
@@ -49,7 +49,7 @@ de comprar y vender por internet</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F65-2L-pD6">
-                                <rect key="frame" x="81.5" y="533" width="251" height="43"/>
+                                <rect key="frame" x="81.5" y="538" width="251" height="43"/>
                                 <color key="backgroundColor" red="1" green="0.74509803921568629" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="ELM-ul-cOG"/>
@@ -70,7 +70,7 @@ de comprar y vender por internet</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3c-cP-HIl">
-                                <rect key="frame" x="81.5" y="606" width="251" height="43"/>
+                                <rect key="frame" x="81.5" y="611" width="251" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="cgz-6w-OGX"/>
                                 </constraints>
@@ -91,7 +91,7 @@ de comprar y vender por internet</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos a Digital Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FB-qy-ENh">
-                                <rect key="frame" x="74.5" y="406" width="265" height="26"/>
+                                <rect key="frame" x="56" y="406" width="302" height="31"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -161,7 +161,7 @@ de comprar y vender por internet</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digital Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsK-Al-a9N">
-                                <rect key="frame" x="114" y="59" width="186" height="48"/>
+                                <rect key="frame" x="100" y="59" width="214" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="tUM-4b-808"/>
                                 </constraints>
@@ -225,7 +225,7 @@ de comprar y vender por internet</string>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwn-4u-kOG">
-                                        <rect key="frame" x="20" y="657" width="334" height="38"/>
+                                        <rect key="frame" x="20" y="652" width="334" height="43"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="22"/>
                                         <state key="normal" title="OLVIDÉ MI CONTRASEÑA">
                                             <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -303,13 +303,13 @@ de comprar y vender por internet</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digital Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5r2-3m-fpD">
-                                <rect key="frame" x="114" y="59" width="186" height="40"/>
+                                <rect key="frame" x="100" y="59" width="214" height="48"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Wb-xC-5dt">
-                                <rect key="frame" x="20" y="119" width="374" height="723"/>
+                                <rect key="frame" x="20" y="127" width="374" height="715"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="xcs-hG-wbK">
                                         <rect key="frame" x="49.5" y="60" width="275" height="159"/>
@@ -318,31 +318,37 @@ de comprar y vender por internet</string>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sabemos que no tomó su medicación." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37l-8e-lXr">
-                                        <rect key="frame" x="2" y="234" width="370" height="20"/>
+                                        <rect key="frame" x="2" y="234" width="370" height="24"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese email de cuenta a recuperar" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCQ-Xc-W7W">
-                                        <rect key="frame" x="51" y="294" width="272.5" height="20"/>
+                                        <rect key="frame" x="31" y="302" width="312" height="24"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por suerte tenemos una base de datos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKf-ZB-uPV">
-                                        <rect key="frame" x="2" y="259" width="370" height="20"/>
+                                        <rect key="frame" x="2" y="263" width="370" height="24"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="17"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PYM-cm-sK7">
-                                        <rect key="frame" x="51" y="334" width="272.5" height="34"/>
+                                        <rect key="frame" x="31" y="346" width="312" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="Zzx-XF-7lI"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRp-KA-OV9">
-                                        <rect key="frame" x="51" y="388" width="272.5" height="38"/>
+                                        <rect key="frame" x="31" y="410" width="312" height="43"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="KOT-6B-wef"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="22"/>
                                         <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
                                         <state key="normal" title="CONFIRMAR">
@@ -354,10 +360,16 @@ de comprar y vender por internet</string>
                                                 <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="forgotPassButton:" destination="R9P-v6-1ro" eventType="touchUpInside" id="JlS-BZ-te3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukp-8u-s5h">
-                                        <rect key="frame" x="51" y="446" width="272.5" height="38"/>
+                                        <rect key="frame" x="31" y="473" width="312" height="43"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="RoQ-Fq-73v"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="22"/>
                                         <size key="titleShadowOffset" width="0.10000000000000001" height="0.0"/>
                                         <state key="normal" title="CANCELAR">
@@ -387,7 +399,7 @@ de comprar y vender por internet</string>
                                     <constraint firstItem="ukp-8u-s5h" firstAttribute="trailing" secondItem="BRp-KA-OV9" secondAttribute="trailing" id="LSH-1M-me8"/>
                                     <constraint firstItem="37l-8e-lXr" firstAttribute="leading" secondItem="4Wb-xC-5dt" secondAttribute="leading" constant="2" id="MKe-xZ-ZoD"/>
                                     <constraint firstItem="FCQ-Xc-W7W" firstAttribute="top" secondItem="HKf-ZB-uPV" secondAttribute="bottom" constant="15" id="ONE-NS-eL7"/>
-                                    <constraint firstItem="BRp-KA-OV9" firstAttribute="top" secondItem="PYM-cm-sK7" secondAttribute="bottom" constant="20" id="Tgd-q9-7gR"/>
+                                    <constraint firstItem="BRp-KA-OV9" firstAttribute="top" secondItem="PYM-cm-sK7" secondAttribute="bottom" constant="30" id="PK6-Nk-kCf"/>
                                     <constraint firstItem="HKf-ZB-uPV" firstAttribute="top" secondItem="37l-8e-lXr" secondAttribute="bottom" constant="5" id="WER-QO-fBc"/>
                                     <constraint firstItem="PYM-cm-sK7" firstAttribute="leading" secondItem="FCQ-Xc-W7W" secondAttribute="leading" id="Zwt-aQ-9XS"/>
                                     <constraint firstItem="xcs-hG-wbK" firstAttribute="centerX" secondItem="4Wb-xC-5dt" secondAttribute="centerX" id="ef7-4Q-I7T"/>
@@ -403,7 +415,7 @@ de comprar y vender por internet</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Olvidó su contraseña?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFq-rn-uWa">
-                                <rect key="frame" x="90.5" y="129" width="233" height="26"/>
+                                <rect key="frame" x="75" y="137" width="264.5" height="31"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -424,6 +436,7 @@ de comprar y vender por internet</string>
                     </view>
                     <navigationItem key="navigationItem" id="Kqc-Zz-yT6"/>
                     <connections>
+                        <outlet property="emailField" destination="PYM-cm-sK7" id="yrF-Bj-IrZ"/>
                         <outlet property="itemButton3" destination="ukp-8u-s5h" id="ddj-p9-ZAm"/>
                     </connections>
                 </viewController>
