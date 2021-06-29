@@ -19,6 +19,7 @@
 		385BD253265866F800CEA4EA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385BD252265866F800CEA4EA /* Poppins-Regular.ttf */; };
 		385BD2562658670900CEA4EA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385BD2552658670900CEA4EA /* Poppins-Bold.ttf */; };
 		38CFF0932687EDC200CDE067 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */; };
+		4F2C1645268AA67C008E0696 /* ViewControllerDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C1644268AA67C008E0696 /* ViewControllerDashboard.swift */; };
 		5051A6C474658C0FC5C10089 /* Pods_digitalstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501CA0485C84172D7BBF6446 /* Pods_digitalstore.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		385BD2552658670900CEA4EA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "fonts/Poppins/Poppins-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 		38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4635733995B3D5220232A26F /* Pods-digitalstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalstore.release.xcconfig"; path = "Target Support Files/Pods-digitalstore/Pods-digitalstore.release.xcconfig"; sourceTree = "<group>"; };
+		4F2C1644268AA67C008E0696 /* ViewControllerDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDashboard.swift; sourceTree = "<group>"; };
 		501CA0485C84172D7BBF6446 /* Pods_digitalstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digitalstore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BB56BC0063C1676F3A5ED6 /* Pods-digitalstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalstore.debug.xcconfig"; path = "Target Support Files/Pods-digitalstore/Pods-digitalstore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 				385BD2552658670900CEA4EA /* Poppins-Bold.ttf */,
 				385BD252265866F800CEA4EA /* Poppins-Regular.ttf */,
 				38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */,
+				4F2C1644268AA67C008E0696 /* ViewControllerDashboard.swift */,
 			);
 			path = digitalstore;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				382A8A73265C985600F3C3DC /* ViewControllerRegister.swift in Sources */,
 				385BD23E26585AAD00CEA4EA /* AppDelegate.swift in Sources */,
 				385BD24026585AAD00CEA4EA /* SceneDelegate.swift in Sources */,
+				4F2C1645268AA67C008E0696 /* ViewControllerDashboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,7 +29,10 @@ class ViewControllerLogin: UIViewController {
                 (result, error) in
                 
                 if let result = result, error == nil {
-                    self.navigationController?.popViewController(animated: true)
+                    let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                    let resultViewController = storyBoard.instantiateViewController(withIdentifier: "ViewControllerDashboard") as! ViewControllerDashboard
+                    self.navigationController?.pushViewController(resultViewController, animated: true)
+                    
                 } else {
                     let alertController = UIAlertController(title:"Error", message: "Se ha producido un error registrando al usuario",
                         preferredStyle: .alert)
