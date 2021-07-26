@@ -19,32 +19,14 @@ class ViewControllerProduct: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        pageView.numberOfPages = imgArr.count
-        pageView.currentPage = 0
-        DispatchQueue.main.async{
-            self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.changeImage), userInfo: nil, repeats: true)
-        }
+
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
-    @objc func changeImage(){
-        
-        if counter < imgArr.count{
-        let index = IndexPath.init(item: counter, section:0)
-        self.sliderCollectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
-        pageView.currentPage = counter
-        counter += 1
-    } else {
-        counter = 0
-        let index = IndexPath.init(item: counter, section: 0)
-        self.sliderCollectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: false)
-        pageView.currentPage = counter
-        counter = 1
-        }
-    }
+
 }
 
     extension ViewControllerProduct: UICollectionViewDelegate, UICollectionViewDataSource {
