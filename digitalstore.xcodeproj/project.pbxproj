@@ -19,6 +19,11 @@
 		385BD253265866F800CEA4EA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385BD252265866F800CEA4EA /* Poppins-Regular.ttf */; };
 		385BD2562658670900CEA4EA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385BD2552658670900CEA4EA /* Poppins-Bold.ttf */; };
 		38CFF0932687EDC200CDE067 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */; };
+		4F0BC7E626AE238A00CE9907 /* SEARCH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0BC7E526AE238A00CE9907 /* SEARCH.png */; };
+		4F0BC7E926AE2E1500CE9907 /* cartera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F0BC7E826AE2E1500CE9907 /* cartera.jpg */; };
+		4F0BC7EC26AE2EA300CE9907 /* cartera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F0BC7EB26AE2EA300CE9907 /* cartera.jpg */; };
+		4F0BC7EF26AE2F4800CE9907 /* cartera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F0BC7EE26AE2F4800CE9907 /* cartera.jpg */; };
+		4F0BC7F626AE525E00CE9907 /* ViewControllerProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0BC7F526AE525E00CE9907 /* ViewControllerProduct.swift */; };
 		4F2C1645268AA67C008E0696 /* ViewControllerDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C1644268AA67C008E0696 /* ViewControllerDashboard.swift */; };
 		5051A6C474658C0FC5C10089 /* Pods_digitalstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501CA0485C84172D7BBF6446 /* Pods_digitalstore.framework */; };
 /* End PBXBuildFile section */
@@ -39,6 +44,11 @@
 		385BD2552658670900CEA4EA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "fonts/Poppins/Poppins-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 		38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4635733995B3D5220232A26F /* Pods-digitalstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalstore.release.xcconfig"; path = "Target Support Files/Pods-digitalstore/Pods-digitalstore.release.xcconfig"; sourceTree = "<group>"; };
+		4F0BC7E526AE238A00CE9907 /* SEARCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SEARCH.png; path = images/SEARCH.png; sourceTree = SOURCE_ROOT; };
+		4F0BC7E826AE2E1500CE9907 /* cartera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartera.jpg; path = images/cartera.jpg; sourceTree = SOURCE_ROOT; };
+		4F0BC7EB26AE2EA300CE9907 /* cartera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartera.jpg; path = images/cartera.jpg; sourceTree = SOURCE_ROOT; };
+		4F0BC7EE26AE2F4800CE9907 /* cartera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartera.jpg; path = images/cartera.jpg; sourceTree = SOURCE_ROOT; };
+		4F0BC7F526AE525E00CE9907 /* ViewControllerProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProduct.swift; sourceTree = "<group>"; };
 		4F2C1644268AA67C008E0696 /* ViewControllerDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDashboard.swift; sourceTree = "<group>"; };
 		501CA0485C84172D7BBF6446 /* Pods_digitalstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digitalstore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BB56BC0063C1676F3A5ED6 /* Pods-digitalstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digitalstore.debug.xcconfig"; path = "Target Support Files/Pods-digitalstore/Pods-digitalstore.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,12 +95,17 @@
 				38287B06265AFC8100FB274B /* ViewControllerForgot.swift */,
 				385BD24326585AAD00CEA4EA /* Main.storyboard */,
 				385BD24626585AB000CEA4EA /* Assets.xcassets */,
+				4F0BC7E826AE2E1500CE9907 /* cartera.jpg */,
+				4F0BC7EB26AE2EA300CE9907 /* cartera.jpg */,
+				4F0BC7EE26AE2F4800CE9907 /* cartera.jpg */,
+				4F0BC7E526AE238A00CE9907 /* SEARCH.png */,
 				385BD24826585AB000CEA4EA /* LaunchScreen.storyboard */,
 				385BD24B26585AB000CEA4EA /* Info.plist */,
 				385BD2552658670900CEA4EA /* Poppins-Bold.ttf */,
 				385BD252265866F800CEA4EA /* Poppins-Regular.ttf */,
 				38CFF0922687EDC200CDE067 /* GoogleService-Info.plist */,
 				4F2C1644268AA67C008E0696 /* ViewControllerDashboard.swift */,
+				4F0BC7F526AE525E00CE9907 /* ViewControllerProduct.swift */,
 			);
 			path = digitalstore;
 			sourceTree = "<group>";
@@ -172,10 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				385BD24A26585AB000CEA4EA /* LaunchScreen.storyboard in Resources */,
+				4F0BC7EC26AE2EA300CE9907 /* cartera.jpg in Resources */,
 				385BD24726585AB000CEA4EA /* Assets.xcassets in Resources */,
 				385BD2562658670900CEA4EA /* Poppins-Bold.ttf in Resources */,
 				385BD24526585AAD00CEA4EA /* Main.storyboard in Resources */,
+				4F0BC7E926AE2E1500CE9907 /* cartera.jpg in Resources */,
+				4F0BC7E626AE238A00CE9907 /* SEARCH.png in Resources */,
 				385BD253265866F800CEA4EA /* Poppins-Regular.ttf in Resources */,
+				4F0BC7EF26AE2F4800CE9907 /* cartera.jpg in Resources */,
 				38CFF0932687EDC200CDE067 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +254,7 @@
 				382A8A73265C985600F3C3DC /* ViewControllerRegister.swift in Sources */,
 				385BD23E26585AAD00CEA4EA /* AppDelegate.swift in Sources */,
 				385BD24026585AAD00CEA4EA /* SceneDelegate.swift in Sources */,
+				4F0BC7F626AE525E00CE9907 /* ViewControllerProduct.swift in Sources */,
 				4F2C1645268AA67C008E0696 /* ViewControllerDashboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
